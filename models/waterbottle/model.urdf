@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="yibao">
+  <link
+    name="base_link">
+    <contact>
+      <friction_anchor/>
+      <lateral_friction value="0.308"/>
+      <spinning_friction value="0.001"/>
+      <rolling_friction value="0.001"/>
+      <contact_cfm value="0.0"/>
+      <contact_erp value="1.0"/>
+    </contact>
+    <inertial>
+      <origin
+        xyz="-1.61033668767251E-17 -3.46944695195361E-17 1.73832336600264E-18"
+        rpy="0 0 0" />
+      <mass
+        value=".389" />
+      <inertia
+        ixx="3.05052066367758E-09"
+        ixy="-1.83860257258489E-12"
+        ixz="6.19842921228588E-13"
+        iyy="6.58096710179503E-10"
+        iyz="1.13003232731489E-12"
+        izz="3.05050755800486E-09" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.507 0 0" />
+      <geometry>
+        <mesh
+          filename="nontextured.obj"  scale="1 1 1"/>  <!-- 6.2 work-->
+          <!-- yibao 7.15 7.15 7.15 -->
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="1 1 1 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="nontextured.obj"  scale="1 1 1"/>  <!-- 6.2 work-->
+      </geometry>
+    </collision>
+  </link>
+</robot>

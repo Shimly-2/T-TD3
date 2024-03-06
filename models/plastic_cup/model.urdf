@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="plastic_cup">
+  <link
+    name="base_link">
+    <contact>
+      <friction_anchor/>
+      <lateral_friction value="0.308"/>
+      <spinning_friction value="0.001"/>
+      <rolling_friction value="0.001"/>
+      <contact_cfm value="0.0"/>
+      <contact_erp value="1.0"/>
+    </contact>
+    <inertial>
+      <origin
+        xyz="-7.28583859910259E-17 1.2490009027033E-16 -1.59594559789866E-16"
+        rpy="0 0 0" />
+      <mass
+        value="0.0165421756515488" />
+      <inertia
+        ixx="1.54899057025008E-05"
+        ixy="1.46053455796085E-09"
+        ixz="-1.50083168009482E-10"
+        iyy="1.45588441010756E-05"
+        iyz="5.61683813030835E-10"
+        izz="1.54869273279485E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="1.507 0 0" />
+      <geometry>
+        <mesh
+          filename="plastic_cup/nontextured.stl" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.858823529411765 0.858823529411765 0.858823529411765 0.1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="plastic_cup/nontextured.stl" />
+      </geometry>
+    </collision>
+  </link>
+</robot>
